@@ -1,5 +1,7 @@
 package com.taskproject.service;
 
-public interface UserService {
+import com.taskproject.payload.UserDto;
 
+public interface UserService {
+	public UserDto createUser(UserDto userdto);
 }
